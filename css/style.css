@@ -3,6 +3,27 @@ html {
   width: 100%;
 }
 
+/* Placing the footer at the bottom of the page*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/*White color for text in footer elemt and text align*/
+footer {
+  background-color: #33302B;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+
+.navbar {
+  background-color: #A17735;
+}
+
 /*#F59700 - orange*/
 /*#755F3B - brown*/
 /*#A17735 - light brown*/
@@ -13,6 +34,3 @@ html {
 .textalign {
   text-align: center;
 }
-
-
-
