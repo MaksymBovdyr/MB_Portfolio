@@ -3,6 +3,16 @@ html {
   width: 100%;
 }
 
+
+/*#F59700 - orange*/
+/*#755F3B - brown*/
+/*#A17735 - light brown*/
+/*#4A4132 - dark brown*/
+/*#33302B - weary dark brown*/
+
+
+
+
 /* Placing the footer at the bottom of the page*/
 body {
   min-height: 100vh;
@@ -24,13 +34,61 @@ footer {
   background-color: #A17735;
 }
 
-/*#F59700 - orange*/
-/*#755F3B - brown*/
-/*#A17735 - light brown*/
-/*#4A4132 - dark brown*/
-/*#33302B - weary dark brown*/
+
 
 
 .textalign {
   text-align: center;
+}
+
+
+.small_decorative_line {
+  margin-top: 10px;
+  width: 50%;
+  height: 2px;
+  background-color: #F59700;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:750px) {
+  .small_decorative_line {
+    width: 70%;
+  }
+}
+
+
+.large_decorative_line {
+  width: 70%;
+  height: 2px;
+  background-color: #F59700;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+
+}
+
+@media screen and (max-width:750px) {
+  .large_decorative_line {
+    width: 90%;
+  }
+}
+
+
+.img_size {
+  width: 100%;
+  height: 400px;
+}
+
+.box_style {
+  border-style: solid;
+  border-color: #F59700;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin: 50px;
+}
+
+.contact_box {
+  margin-top: 100px;
 }
