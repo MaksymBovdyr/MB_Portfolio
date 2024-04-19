@@ -6,7 +6,7 @@ html {
 
 /*#F59700 - orange*/
 /*#755F3B - brown*/
-/*#A17735 - light brown*/
+/*#F8BA57 - soft orange colour*/
 /*#4A4132 - dark brown*/
 /*#33302B - weary dark brown*/
 
@@ -31,7 +31,7 @@ footer {
 
 
 .navbar {
-  background-color: #A17735;
+  background-color: #F8BA57;
 }
 
 
@@ -43,11 +43,11 @@ footer {
 
 
 .small_decorative_line {
-  margin-top: 10px;
   width: 50%;
   height: 2px;
   background-color: #F59700;
   margin: 0 auto;
+  margin-bottom: 35px;
 }
 
 @media screen and (max-width:750px) {
@@ -79,6 +79,14 @@ footer {
   width: 100%;
   height: 400px;
 }
+
+
+.buttonbg {
+  background-color: #F59700;
+}
+
+
+
 
 .box_style {
   border-style: solid;
